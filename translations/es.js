@@ -12,5 +12,7 @@ const translationsES = {
   slide2Button: "Leer más",
   slide3Title: "Donde la relajación se encuentra con la belleza",
   slide3Text: "En Mila Masajes, nuestro objetivo es crear un ambiente de máxima relajación para todos los clientes, tanto nuevos como habituales. Nuestro equipo ofrece más que cualquier otro salón de belleza y masajes en Quepos.",
-  slide3Button: "Leer más"
+  slide3Button: "Leer más",
+  massageServicesTitle: "Nuestros Servicios de Masaje",
+  massageServicesDescription: "Ofrecemos una amplia variedad de masajes terapéuticos para ayudarte a relajar tu cuerpo y mente. Entre nuestros servicios encontrarás: Masaje Relajante, Masaje Descontracturante, Masaje con Bambú, Masaje Localizado de Espalda, Retorno Venoso, y Masaje Reductivo más Venda Fría. Además, ofrecemos paquetes de 10 a 15 sesiones y servicios de limpieza facial, tanto básica como profunda con mascarilla."
 };

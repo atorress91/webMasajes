@@ -12,5 +12,7 @@ const translationsEN = {
   slide2Button: "Read more",
   slide3Title: "Where Relaxation Meets Beauty",
   slide3Text: "At Mila Massage, we aim to create the atmosphere of utmost relaxation for all clients, both new and regular ones. Our team offers more than any other massage & beauty salon in Quepos.",
-  slide3Button: "Read more"
+  slide3Button: "Read more",
+  massageServicesTitle: "Our Massage Services",
+  massageServicesDescription: "We offer a wide variety of therapeutic massages to help you relax your body and mind. Our services include: Relaxing Massage, Deep Tissue Massage, Bamboo Massage, Targeted Back Massage, Venous Return, and Reductive Massage with Cold Bandage. Additionally, we offer packages of 10 to 15 sessions and facial cleansing services, both basic and deep with a mask."
 };

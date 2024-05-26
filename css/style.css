@@ -9,8 +9,15 @@
 */
 .language-switcher {
     display: flex;
+    position: fixed;
+    left: auto;  /* Remover la restricción del lado izquierdo */
+    right: 0;    /* Alinear a la derecha */
+    top: 0;
+    z-index: 1080;
     align-items: center;
-    padding: 0 10px; /* Ajusta el padding según necesidades */
+    height: 56px;
+    padding: 4px;
+    justify-content: flex-end; /* Alinea el contenido interior a la derecha */
 }
 
 .flag-button {
