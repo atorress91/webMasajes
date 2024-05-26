@@ -3,10 +3,9 @@
 <html class="wide wow-animation" lang="en">
 
 <head>
-  <title>Massage Salon </title>
+  <title data-translate-key="title">Mila Massage</title>
   <meta name="format-detection" content="telephone=no">
-  <meta name="viewport"
-    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -69,7 +68,8 @@
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
                 <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <button title="btn_navbar" class="rd-navbar-toggle"
+                  data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
                 <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/massage-logo2.png"
                       alt="logo_massage" width="137" height="137" /></a></div>
@@ -78,36 +78,26 @@
                 <div class="rd-navbar-nav-wrap">
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" data-translate-key="home"
+                        href="index.html">Home</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="overview.html">About</a>
-                      <!-- RD Navbar Dropdown-->
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="our-team.html">Our Team</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="overview.html">Overview</a></li>
-                        <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                            href="testimonials.html">Testimonials</a></li> -->
-                      </ul>
+                    <li class="rd-nav-item"><a class="rd-nav-link" data-translate-key="services"
+                        href="services.html">Services</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" data-translate-key="gallery"
+                        href="grid-gallery.html">Gallery</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="grid-gallery.html">Gallery</a>
-                      <!-- RD Navbar Dropdown-->
-                      <ul class="rd-menu rd-navbar-dropdown">
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-gallery.html">Grid
-                            Gallery</a></li>
-                        <!-- <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="cobbles-gallery.html">Cobbles
-                            Gallery</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="masonry-gallery.html">Masonry
-                            Gallery</a></li>
-                        <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                            href="gallery-without-padding.html">Gallery without padding</a></li> -->
-                      </ul>
-                    </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                    <li class="rd-nav-item"><a class="rd-nav-link" data-translate-key="contacts"
+                        href="contacts.html">Contacts</a>
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div class="language-switcher">
+                <button data-change-lang="es" class="flag-button"
+                  style="background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1280px-Flag_of_Spain.svg.png');"></button>
+                <button data-change-lang="en" class="flag-button"
+                  style="background-image: url('https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg');"></button>
               </div>
             </div>
           </div>
@@ -119,60 +109,56 @@
       data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="slide-bg swiper-white-filter"
-            style="background-image: url(&quot;images/slide-4-1-1920x780.jpg&quot;)"></div>
-          <div class="swiper-slide-caption section-md">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-10 col-lg-7 col-xl-6 swiper-caption-inner">
-                  <h2 data-caption-animate="fadeInUp" data-caption-delay="100">The Best Time to Relax<br>with Balance
-                  </h2>
-                  <div class="divider-lg" data-caption-animate="fadeInLeft" data-caption-delay="550"></div>
-                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="250">Welcome to Balance, home of
-                    the most passionate talents in the area. We invite you to explore our exceptional massage services
-                    and enjoy the utmost relaxation available only at our salon.</p><a
-                    class="button button-default-outline" href="#" data-caption-animate="fadeInUp"
-                    data-caption-delay="450">Read more</a>
+          <div class="slide-bg swiper-white-filter" style="background-image: url(&quot;images/slide-5.png&quot;)"></div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-10 col-lg-7 col-xl-6 swiper-caption-inner">
+                    <h2 data-translate-key="slide1Title" data-caption-animate="fadeInUp" data-caption-delay="100"></h2>
+                    <div class="divider-lg" data-caption-animate="fadeInLeft" data-caption-delay="550"></div>
+                    <p class="lead" data-translate-key="slide1Text" data-caption-animate="fadeInUp"
+                      data-caption-delay="250"></p>
+                    <a class="button button-default-outline" data-translate-key="slide1Button" href="#"
+                      data-caption-animate="fadeInUp" data-caption-delay="450"></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="slide-bg swiper-white-filter"
-            style="background-image: url(&quot;images/slide-4-2-1920x780.jpg&quot;)"></div>
+          <div class="slide-bg swiper-white-filter" style="background-image: url('images/slide-3-3-1920x720.jpg')">
+          </div>
           <div class="swiper-slide-caption section-md">
             <div class="container">
               <div class="row">
                 <div class="col-sm-10 col-lg-7 col-xl-6 swiper-caption-inner">
-                  <h2 data-caption-animate="fadeInUp" data-caption-delay="100">High-Quality Massage<br>Services for You
-                  </h2>
+                  <h2 data-translate-key="slide2Title" data-caption-animate="fadeInUp" data-caption-delay="100"></h2>
                   <div class="divider-lg" data-caption-animate="fadeInLeft" data-caption-delay="550"></div>
-                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="250">Our Massage Salon constantly
-                    improves the customer service standards and offers the top-notch massage treatments to every client.
-                    It’s time to enjoy the best massage and relaxation in Los Angeles!</p><a
-                    class="button button-default-outline" href="#" data-caption-animate="fadeInUp"
-                    data-caption-delay="450">Read more</a>
+                  <p class="lead" data-translate-key="slide2Text" data-caption-animate="fadeInUp"
+                    data-caption-delay="250"></p>
+                  <a class="button button-default-outline" data-translate-key="slide2Button" href="#"
+                    data-caption-animate="fadeInUp" data-caption-delay="450"></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="slide-bg swiper-white-filter"
-            style="background-image: url(&quot;images/slide-4-3-1920x780.jpg&quot;)"></div>
+          <div class="slide-bg swiper-white-filter" style="background-image: url('images/slide-6.png')">
+          </div>
           <div class="swiper-slide-caption section-md">
             <div class="container">
               <div class="row">
                 <div class="col-sm-10 col-lg-7 col-xl-6 swiper-caption-inner">
-                  <h2 class="heading-decorate" data-caption-animate="fadeInUp" data-caption-delay="100">Where Relaxation
-                    <br>Meets Beauty
-                  </h2>
+                  <h2 class="heading-decorate" data-translate-key="slide3Title" data-caption-animate="fadeInUp"
+                    data-caption-delay="100"></h2>
                   <div class="divider-lg" data-caption-animate="fadeInLeft" data-caption-delay="550"></div>
-                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="250">At Balance, we aim to create
-                    the atmosphere of utmost relaxation for all clients, both new and regular ones. Our team offers more
-                    than any other massage & beauty salon in California.</p><a class="button button-default-outline"
-                    href="#" data-caption-animate="fadeInUp" data-caption-delay="450">Read more</a>
+                  <p class="lead" data-translate-key="slide3Text" data-caption-animate="fadeInUp"
+                    data-caption-delay="250"></p>
+                  <a class="button button-default-outline" data-translate-key="slide3Button" href="#"
+                    data-caption-animate="fadeInUp" data-caption-delay="450"></a>
                 </div>
               </div>
             </div>
@@ -184,38 +170,18 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </section>
-    <section class="section section-lg bg-gray-100">
-      <div class="container">
-        <div class="row row-50 align-items-lg-center justify-content-xl-between">
-          <div class="col-lg-6">
-            <div class="box-images box-images-modern">
-              <div class="box-images-item" data-parallax-scroll="{&quot;y&quot;: -10,   &quot;smoothness&quot;: 30 }">
-                <img src="images/home-4-2-310x369.jpg" alt="" width="310" height="369" />
-              </div>
-              <div class="box-images-item box-images-without-border"
-                data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30 }"><img
-                  src="images/home-4-1-328x389.jpg" alt="" width="328" height="389" />
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-5">
-            <h2 class="heading-decorate">Why Our Clients <br><span class="divider"></span>Choose Us
-            </h2>
-            <p class="big text-gray-800">Our Massage Salon is an ideal place to indulge yourself, relax after a busy
-              workday, and get an exclusive body treatment.</p>
-            <p>We offer a variety of massage services to choose from. Instead of offering one massage type like many
-              salons do, we spiffy each type of massage that we can offer you.</p><a
-              class="button button-default-outline" href="overview.html">read more</a>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="section section-lg bg-default text-center">
       <div class="container">
-        <h2>Our Services</h2>
+        <h2 data-translate-key="massageServicesTitle">Nuestros Servicios de Masaje</h2>
         <div class="divider-lg"></div>
-        <p>We provide a wide range of services for you<br class="d-none d-sm-inline"> to look clean, attractive, and
-          original.
+        <p data-translate-key="massageServicesDescription">Ofrecemos una amplia variedad de masajes terapéuticos para
+          ayudarte a relajar tu cuerpo y mente. Entre nuestros servicios encontrarás:
+          <br class="d-none d-sm-inline"> Masaje Relajante, Masaje
+          Descontracturante, Masaje con Bambú, Masaje Localizado de Espalda, Retorno Venoso, y Masaje Reductivo más
+          Venda Fría.
+          <br class="d-none d-sm-inline">Además, ofrecemos paquetes de 10 a 15 sesiones y servicios de limpieza facial,
+          tanto básica como
+          profunda con mascarilla.
         </p>
       </div>
       <div class="container">
@@ -321,103 +287,6 @@
         </div>
       </div>
     </section>
-    <section class="section parallax-container" data-parallax-img="images/parallax-2-1920x380.jpg">
-      <div class="parallax-content section-sm  text-center">
-        <div class="container">
-          <div class="row row-30 counter-list-border">
-            <div class="col-6 col-md-3">
-              <!-- Box counter-->
-              <article class="box-counter">
-                <div class="box-counter-main">
-                  <div class="counter heading-1"><span>2580</span></div>
-                </div>
-                <p class="box-counter-title">happy clients</p>
-              </article>
-            </div>
-            <div class="col-6 col-md-3">
-              <!-- Box counter-->
-              <article class="box-counter">
-                <div class="box-counter-main">
-                  <div class="counter heading-1"><span>7</span></div>
-                </div>
-                <p class="box-counter-title">Awards</p>
-              </article>
-            </div>
-            <div class="col-6 col-md-3">
-              <!-- Box counter-->
-              <article class="box-counter">
-                <div class="box-counter-main">
-                  <div class="counter heading-1"><span>11</span></div>
-                </div>
-                <p class="box-counter-title">offices</p>
-              </article>
-            </div>
-            <div class="col-6 col-md-3">
-              <!-- Box counter-->
-              <article class="box-counter">
-                <div class="box-counter-main">
-                  <div class="counter heading-1"><span>54</span></div>
-                </div>
-                <p class="box-counter-title">team members</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section section-lg bg-default">
-      <div class="container">
-        <div class="row row-50">
-          <div class="col-sm-6 col-lg-3 text-center text-lg-left">
-            <h2>Our Staff</h2>
-            <div class="divider-lg"></div>
-            <p>Balance is the team of experienced and dedicated massage experts making your dreams come true.</p>
-            <div class="quote-with-image">
-              <div class="quote-caption">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="88.34px" height="65.34px"
-                  viewBox="0 0 88.34 65.34" enable-background="new 0 0 88.34 65.34" overflow="scroll"
-                  xml:space="preserve" preserveAspectRatio="none">
-                  <path
-                    d="M49.394,65.34v-4.131c12.318-7.088,19.924-16.074,22.811-26.965c-3.125,2.032-5.968,3.051-8.526,3.051																						c-4.265,0-7.864-1.721-10.803-5.168c-2.937-3.444-4.407-7.654-4.407-12.64c0-5.511,1.932-10.142,5.791-13.878																						C58.123,1.873,62.873,0,68.51,0c5.639,0,10.354,2.379,14.143,7.137c3.793,4.757,5.688,10.678,5.688,17.758																						c0,9.977-3.814,18.912-11.443,26.818C69.268,59.613,60.101,64.156,49.394,65.34z M0.923,65.34v-4.131																						c12.321-7.088,19.926-16.074,22.813-26.965c-3.126,2.032-5.993,3.051-8.598,3.051c-4.219,0-7.794-1.721-10.734-5.168																						C1.467,28.683,0,24.473,0,19.487C0,13.976,1.919,9.346,5.757,5.609C9.595,1.873,14.334,0,19.971,0																						c5.685,0,10.41,2.379,14.178,7.137c3.767,4.757,5.652,10.678,5.652,17.758c0,9.977-3.805,18.912-11.409,26.818																						C20.787,59.613,11.632,64.156,0.923,65.34z">
-                  </path>
-                </svg>
-                <h4 class="quote-text">It is time to <br> indulge yourself!
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-9">
-            <p class="text-center text-lg-right"><a class="button-link button-link-icon" href="our-team.html">View All
-                Team <span class="icon fa-arrow-right icon-primary"></span></a></p>
-            <!-- Owl Carousel-->
-            <div class="owl-carousel carousel-inset" data-items="1" data-lg-items="3" data-dots="true" data-nav="false"
-              data-stage-padding="15" data-loop="true" data-autoplay="true" data-margin="30" data-mouse-drag="false">
-              <div class="team-minimal team-minimal-type-2">
-                <figure><img src="images/team-1-370x370.jpg" alt="" width="370" height="370"></figure>
-                <div class="team-minimal-caption">
-                  <h4 class="team-title"><a href="team-member-profile.html">Mary Lucas</a></h4>
-                  <p>Senior Masseur</p>
-                </div>
-              </div>
-              <div class="team-minimal team-minimal-type-2">
-                <figure><img src="images/team-2-370x370.jpg" alt="" width="370" height="370"></figure>
-                <div class="team-minimal-caption">
-                  <h4 class="team-title"><a href="team-member-profile.html">Ann Butler</a></h4>
-                  <p>Chiropractor</p>
-                </div>
-              </div>
-              <div class="team-minimal team-minimal-type-2">
-                <figure><img src="images/team-3-370x370.jpg" alt="" width="370" height="370"></figure>
-                <div class="team-minimal-caption">
-                  <h4 class="team-title"><a href="team-member-profile.html">Emily Lawrence</a></h4>
-                  <p>Masseur</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="section section-lg bg-gray-100">
       <div class="container">
         <div class="row row-50 justify-content-center">
@@ -429,10 +298,11 @@
           </div>
           <div class="col-md-6">
             <h2 class="heading-decorate"><span class="divider"></span>Our Interior</h2>
-            <p class="big text-gray-800">We are located in the center of LA and our salon has a minimalistic yet very
+            <p class="big text-gray-800">We are located in the center of Quepos, Puntarenas and our salon has a
+              minimalistic yet very
               spacious interior, helping us to cater to your needs.</p>
-            <p>Balance was designed by one of the leading Californian studios with an initial idea of creating clean
-              space for our clients to enjoy massage services.</p>
+            <p>Balance was designed by one of the leading design studios with an initial idea of creating clean
+              space for our clients to enjoy massage services in the heart of Costa Rica.</p>
             <p>The inner space of our salon includes the following:</p>
             <ul class="list-marked">
               <li>Massage Treatment Rooms</li>
@@ -491,81 +361,6 @@
                   <p>from $35</p>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section parallax-container" data-parallax-img="images/parallax-7-1920x1020.jpg">
-      <div class="parallax-content section-lg text-center ">
-        <div class="container">
-          <h2>Testimonials</h2>
-          <div class="divider-lg"></div>
-          <!-- Owl Carousel-->
-          <div class="owl-carousel" data-items="1" data-lg-items="3" data-dots="true" data-nav="false"
-            data-stage-padding="15" data-loop="true" data-autoplay="true" data-margin="30" data-mouse-drag="false">
-            <div class="quote-corporate quote-corporate-center-img">
-              <div class="quote-header">
-                <h4>Jennifer Moreno</h4>
-                <p class="big">Client</p>
-              </div>
-              <div class="quote-body">
-                <div class="quote-text">
-                  <p>My first visit and experience was pure bliss. The beautiful and serene environment makes you feel
-                    peaceful the moment you enter. The service is excellent! </p>
-                </div>
-                <svg class="quote-body-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                  width="66px" height="49px" viewbox="0 0 66 49" enable-background="new 0 0 66 49" xml:space="preserve">
-                  <g></g>
-                  <path
-                    d="M36.903,49v-3.098c9.203-5.315,14.885-12.055,17.042-20.222c-2.335,1.524-4.459,2.288-6.37,2.288						c-3.186,0-5.875-1.29-8.071-3.876c-2.194-2.583-3.293-5.74-3.293-9.479c0-4.133,1.443-7.605,4.327-10.407						C43.425,1.405,46.973,0,51.185,0c4.213,0,7.735,1.784,10.566,5.352C64.585,8.919,66,13.359,66,18.669						c0,7.482-2.85,14.183-8.549,20.112C51.751,44.706,44.902,48.112,36.903,49z M0.69,49v-3.098						c9.205-5.315,14.887-12.055,17.044-20.222c-2.335,1.524-4.478,2.288-6.423,2.288c-3.152,0-5.823-1.29-8.02-3.876						C1.096,21.51,0,18.353,0,14.614c0-4.133,1.434-7.605,4.301-10.407C7.168,1.405,10.709,0,14.92,0c4.247,0,7.778,1.784,10.592,5.352						c2.814,3.567,4.223,8.007,4.223,13.317c0,7.482-2.843,14.183-8.524,20.112C15.53,44.706,8.69,48.112,0.69,49z">
-                  </path>
-                </svg>
-              </div>
-              <div class="quote-image"><img src="images/home-1-10-90x90.jpg" alt="" width="90" height="90" />
-              </div>
-            </div>
-            <div class="quote-corporate quote-corporate-center-img">
-              <div class="quote-header">
-                <h4>Mary Matthews</h4>
-                <p class="big">Client</p>
-              </div>
-              <div class="quote-body">
-                <div class="quote-text">
-                  <p>From the moment I got here, the atmosphere was welcoming. You did such an amazing job, I felt
-                    better than new. The hour flew by and it felt amazing.</p>
-                </div>
-                <svg class="quote-body-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                  width="66px" height="49px" viewbox="0 0 66 49" enable-background="new 0 0 66 49" xml:space="preserve">
-                  <g></g>
-                  <path
-                    d="M36.903,49v-3.098c9.203-5.315,14.885-12.055,17.042-20.222c-2.335,1.524-4.459,2.288-6.37,2.288						c-3.186,0-5.875-1.29-8.071-3.876c-2.194-2.583-3.293-5.74-3.293-9.479c0-4.133,1.443-7.605,4.327-10.407						C43.425,1.405,46.973,0,51.185,0c4.213,0,7.735,1.784,10.566,5.352C64.585,8.919,66,13.359,66,18.669						c0,7.482-2.85,14.183-8.549,20.112C51.751,44.706,44.902,48.112,36.903,49z M0.69,49v-3.098						c9.205-5.315,14.887-12.055,17.044-20.222c-2.335,1.524-4.478,2.288-6.423,2.288c-3.152,0-5.823-1.29-8.02-3.876						C1.096,21.51,0,18.353,0,14.614c0-4.133,1.434-7.605,4.301-10.407C7.168,1.405,10.709,0,14.92,0c4.247,0,7.778,1.784,10.592,5.352						c2.814,3.567,4.223,8.007,4.223,13.317c0,7.482-2.843,14.183-8.524,20.112C15.53,44.706,8.69,48.112,0.69,49z">
-                  </path>
-                </svg>
-              </div>
-              <div class="quote-image"><img src="images/home-1-11-90x90.jpg" alt="" width="90" height="90" />
-              </div>
-            </div>
-            <div class="quote-corporate quote-corporate-center-img">
-              <div class="quote-header">
-                <h4>Amanda Smith</h4>
-                <p class="big">Client</p>
-              </div>
-              <div class="quote-body">
-                <div class="quote-text">
-                  <p>The massage rooms are equipped comfortably and thoughtfully. The two-hour massage at your salon
-                    became my holiday adventure and fun! Thank you!</p>
-                </div>
-                <svg class="quote-body-mark" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                  width="66px" height="49px" viewbox="0 0 66 49" enable-background="new 0 0 66 49" xml:space="preserve">
-                  <g></g>
-                  <path
-                    d="M36.903,49v-3.098c9.203-5.315,14.885-12.055,17.042-20.222c-2.335,1.524-4.459,2.288-6.37,2.288						c-3.186,0-5.875-1.29-8.071-3.876c-2.194-2.583-3.293-5.74-3.293-9.479c0-4.133,1.443-7.605,4.327-10.407						C43.425,1.405,46.973,0,51.185,0c4.213,0,7.735,1.784,10.566,5.352C64.585,8.919,66,13.359,66,18.669						c0,7.482-2.85,14.183-8.549,20.112C51.751,44.706,44.902,48.112,36.903,49z M0.69,49v-3.098						c9.205-5.315,14.887-12.055,17.044-20.222c-2.335,1.524-4.478,2.288-6.423,2.288c-3.152,0-5.823-1.29-8.02-3.876						C1.096,21.51,0,18.353,0,14.614c0-4.133,1.434-7.605,4.301-10.407C7.168,1.405,10.709,0,14.92,0c4.247,0,7.778,1.784,10.592,5.352						c2.814,3.567,4.223,8.007,4.223,13.317c0,7.482-2.843,14.183-8.524,20.112C15.53,44.706,8.69,48.112,0.69,49z">
-                  </path>
-                </svg>
-              </div>
-              <div class="quote-image"><img src="images/home-1-12-90x90.jpg" alt="" width="90" height="90" />
-              </div>
             </div>
           </div>
         </div>
@@ -663,6 +458,10 @@
   <!-- Global Mailform Output-->
   <div class="snackbars" id="form-output-global"></div>
   <!-- Javascript-->
+  <!-- Asegúrate de incluir tus scripts de traducciones antes del script principal -->
+  <script src="translations/es.js"></script>
+  <script src="translations/en.js"></script>
+  <script src="js/language.js"></script>
   <script src="js/core.min.js"></script>
   <script src="js/script.js"></script>
 </body>
